@@ -1,7 +1,6 @@
 {
     "ServerKind": 0,
     "OrganizationName": "weixiansizhong2219",
-    "AllowExitManagement": false
     "ClassPlanSource": {
         "Value": "https://raw.githubusercontent.com/zhaoguohui09820/classisland-mgmt-cfg/master/classplans.json",
         "Version": 1
