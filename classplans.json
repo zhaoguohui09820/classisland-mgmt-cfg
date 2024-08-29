@@ -3,7 +3,7 @@
     "TimeLayouts": {},
     "ClassPlans": {
         "6f3a9de1-da93-4aa9-99eb-99f8452f1a0a": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 0,
                 "WeekCountDiv": 0,
@@ -92,7 +92,7 @@
             "IsActive": false
         },
         "8255979e-0d91-4d6a-b8ad-2d739b84e5de": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 6,
                 "WeekCountDiv": 0,
@@ -181,7 +181,7 @@
             "IsActive": false
         },
         "011bcabc-7055-46df-8b28-8d1b6cef3d03": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 5,
                 "WeekCountDiv": 0,
@@ -270,7 +270,7 @@
             "IsActive": false
         },
         "46efcd7f-12a9-4ffb-ae27-40f0fa3e8ea9": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 4,
                 "WeekCountDiv": 0,
@@ -359,7 +359,7 @@
             "IsActive": false
         },
         "100973b0-3614-45a3-891b-baecb12dcc03": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 3,
                 "WeekCountDiv": 0,
@@ -448,7 +448,7 @@
             "IsActive": false
         },
         "fd2195c5-02c0-4124-ae1c-303d5a5e5df9": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 2,
                 "WeekCountDiv": 0,
@@ -537,7 +537,7 @@
             "IsActive": false
         },
         "65f95063-7444-49b2-9b7e-195fca7caa01": {
-            "TimeLayoutId": "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1",
+            "TimeLayoutId": "6ffd403f-68fd-4a89-b5f7-1a95018c70c1",
             "TimeRule": {
                 "WeekDay": 1,
                 "WeekCountDiv": 0,

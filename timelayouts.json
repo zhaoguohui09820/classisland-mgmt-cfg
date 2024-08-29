@@ -1,7 +1,7 @@
 {
     "Name": "",
     "TimeLayouts": {
-        "a6d711f9-f54b-49d4-9d0b-fbaf991c50f1": {
+        "6ffd403f-68fd-4a89-b5f7-1a95018c70c1": {
             "Name": "\u65F6\u95F4\u8868",
             "Layouts": [
                 {
@@ -43,7 +43,64 @@
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "",
-                    "AttachedObjects": {},
+                    "AttachedObjects": {
+                        "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                            "IsAttachSettingsEnabled": false,
+                            "ShowExtraInfoOnTimePoint": true,
+                            "ExtraInfoType": 0,
+                            "IsCountdownEnabled": true,
+                            "CountdownSeconds": 60,
+                            "IsActive": false
+                        },
+                        "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                            "IsClassOnNotificationEnabled": true,
+                            "IsClassOnPreparingNotificationEnabled": true,
+                            "IsClassOffNotificationEnabled": true,
+                            "ClassPreparingDeltaTime": 60,
+                            "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                            "IsAttachSettingsEnabled": false,
+                            "IsActive": false
+                        },
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
+                    "IsActive": false
+                },
+                {
+                    "StartSecond": "2024-08-30T07:55:00",
+                    "EndSecond": "2024-08-30T07:55:00",
+                    "TimeType": 2,
+                    "IsHideDefault": false,
+                    "DefaultClassId": "",
+                    "AttachedObjects": {
+                        "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                            "IsAttachSettingsEnabled": false,
+                            "ShowExtraInfoOnTimePoint": true,
+                            "ExtraInfoType": 0,
+                            "IsCountdownEnabled": true,
+                            "CountdownSeconds": 60,
+                            "IsActive": false
+                        },
+                        "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                            "IsClassOnNotificationEnabled": true,
+                            "IsClassOnPreparingNotificationEnabled": true,
+                            "IsClassOffNotificationEnabled": true,
+                            "ClassPreparingDeltaTime": 60,
+                            "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                            "IsAttachSettingsEnabled": false,
+                            "IsActive": false
+                        },
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
                     "IsActive": false
                 },
                 {
@@ -115,7 +172,64 @@
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "",
-                    "AttachedObjects": {},
+                    "AttachedObjects": {
+                        "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                            "IsAttachSettingsEnabled": false,
+                            "ShowExtraInfoOnTimePoint": true,
+                            "ExtraInfoType": 0,
+                            "IsCountdownEnabled": true,
+                            "CountdownSeconds": 60,
+                            "IsActive": false
+                        },
+                        "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                            "IsClassOnNotificationEnabled": true,
+                            "IsClassOnPreparingNotificationEnabled": true,
+                            "IsClassOffNotificationEnabled": true,
+                            "ClassPreparingDeltaTime": 60,
+                            "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                            "IsAttachSettingsEnabled": false,
+                            "IsActive": false
+                        },
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
+                    "IsActive": false
+                },
+                {
+                    "StartSecond": "2024-08-30T13:07:30",
+                    "EndSecond": "2024-08-30T13:07:30",
+                    "TimeType": 2,
+                    "IsHideDefault": false,
+                    "DefaultClassId": "",
+                    "AttachedObjects": {
+                        "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                            "IsAttachSettingsEnabled": false,
+                            "ShowExtraInfoOnTimePoint": true,
+                            "ExtraInfoType": 0,
+                            "IsCountdownEnabled": true,
+                            "CountdownSeconds": 60,
+                            "IsActive": false
+                        },
+                        "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                            "IsClassOnNotificationEnabled": true,
+                            "IsClassOnPreparingNotificationEnabled": true,
+                            "IsClassOffNotificationEnabled": true,
+                            "ClassPreparingDeltaTime": 60,
+                            "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                            "IsAttachSettingsEnabled": false,
+                            "IsActive": false
+                        },
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
                     "IsActive": false
                 },
                 {
@@ -187,7 +301,64 @@
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "",
-                    "AttachedObjects": {},
+                    "AttachedObjects": {
+                        "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                            "IsAttachSettingsEnabled": false,
+                            "ShowExtraInfoOnTimePoint": true,
+                            "ExtraInfoType": 0,
+                            "IsCountdownEnabled": true,
+                            "CountdownSeconds": 60,
+                            "IsActive": false
+                        },
+                        "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                            "IsClassOnNotificationEnabled": true,
+                            "IsClassOnPreparingNotificationEnabled": true,
+                            "IsClassOffNotificationEnabled": true,
+                            "ClassPreparingDeltaTime": 60,
+                            "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                            "IsAttachSettingsEnabled": false,
+                            "IsActive": false
+                        },
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
+                    "IsActive": false
+                },
+                {
+                    "StartSecond": "2024-08-30T18:25:00",
+                    "EndSecond": "2024-08-30T18:25:00",
+                    "TimeType": 2,
+                    "IsHideDefault": false,
+                    "DefaultClassId": "",
+                    "AttachedObjects": {
+                        "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                            "IsAttachSettingsEnabled": false,
+                            "ShowExtraInfoOnTimePoint": true,
+                            "ExtraInfoType": 0,
+                            "IsCountdownEnabled": true,
+                            "CountdownSeconds": 60,
+                            "IsActive": false
+                        },
+                        "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                            "IsClassOnNotificationEnabled": true,
+                            "IsClassOnPreparingNotificationEnabled": true,
+                            "IsClassOffNotificationEnabled": true,
+                            "ClassPreparingDeltaTime": 60,
+                            "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                            "IsAttachSettingsEnabled": false,
+                            "IsActive": false
+                        },
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
                     "IsActive": false
                 },
                 {
