@@ -267,14 +267,14 @@
             "Name": "\u4F53\u80B2",
             "Initial": "\u4F53",
             "TeacherName": "",
-            "IsOutDoor": true,
+            "IsOutDoor": false,
             "AttachedObjects": {
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 600,
-                    "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u524D\u5F80\u64CD\u573A\u96C6\u5408\u3002",
+                    "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u542C\u4F53\u59D4\u548C\u73ED\u957F\u5B89\u6392\u3002",
                     "IsAttachSettingsEnabled": true,
                     "IsActive": false
                 },
