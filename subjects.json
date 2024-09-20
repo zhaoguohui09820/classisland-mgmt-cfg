@@ -247,9 +247,12 @@
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
-                    "ClassPreparingDeltaTime": 600,
+                    "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u524D\u5F80\u673A\u623F\u96C6\u5408\u3002",
-                    "IsAttachSettingsEnabled": true,
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
+                    "IsAttachSettingsEnabled": false,
                     "IsActive": false
                 },
                 "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
@@ -258,6 +261,9 @@
                     "ExtraInfoType": 0,
                     "IsCountdownEnabled": true,
                     "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
@@ -267,23 +273,29 @@
             "Name": "\u4F53\u80B2",
             "Initial": "\u4F53",
             "TeacherName": "",
-            "IsOutDoor": false,
+            "IsOutDoor": true,
             "AttachedObjects": {
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
-                    "ClassPreparingDeltaTime": 600,
-                    "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u542C\u4F53\u59D4\u548C\u73ED\u957F\u5B89\u6392\u3002",
+                    "ClassPreparingDeltaTime": 900,
+                    "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u5728\u8D70\u5ECA\u7AD9\u597D\u961F\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": true,
                     "IsActive": false
                 },
                 "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
-                    "IsAttachSettingsEnabled": false,
+                    "IsAttachSettingsEnabled": true,
                     "ShowExtraInfoOnTimePoint": true,
                     "ExtraInfoType": 0,
                     "IsCountdownEnabled": true,
                     "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
@@ -509,6 +521,9 @@
                     "ExtraInfoType": 0,
                     "IsCountdownEnabled": true,
                     "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 },
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
@@ -517,6 +532,9 @@
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": false,
                     "IsActive": false
                 }
@@ -535,6 +553,9 @@
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": false,
                     "IsActive": false
                 },
@@ -544,136 +565,169 @@
                     "ExtraInfoType": 0,
                     "IsCountdownEnabled": true,
                     "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
             "IsActive": false
         },
-        "ad55fbe6-295a-45e6-b0ce-68ec287b8338": {
-            "Name": "\u665A\u8BFB",
-            "Initial": "\u665A\u8BFB",
-            "TeacherName": "",
-            "IsOutDoor": false,
-            "AttachedObjects": {
-                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
-                    "IsAttachSettingsEnabled": false,
-                    "ShowExtraInfoOnTimePoint": true,
-                    "ExtraInfoType": 0,
-                    "IsCountdownEnabled": true,
-                    "CountdownSeconds": 60,
-                    "IsActive": false
-                },
-                "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
-                    "IsClassOnNotificationEnabled": true,
-                    "IsClassOnPreparingNotificationEnabled": true,
-                    "IsClassOffNotificationEnabled": true,
-                    "ClassPreparingDeltaTime": 60,
-                    "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
-                    "IsAttachSettingsEnabled": false,
-                    "IsActive": false
-                }
-            },
-            "IsActive": false
-        },
-        "d173b427-d269-42f3-b6a3-adb175d9cc7a": {
+        "1fe8dcea-d169-4aa1-abd1-9f8008973295": {
             "Name": "\u4F8B\u4F1A",
             "Initial": "\u4F8B",
             "TeacherName": "",
             "IsOutDoor": false,
             "AttachedObjects": {
-                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
-                    "IsAttachSettingsEnabled": false,
-                    "ShowExtraInfoOnTimePoint": true,
-                    "ExtraInfoType": 0,
-                    "IsCountdownEnabled": true,
-                    "CountdownSeconds": 60,
-                    "IsActive": false
-                },
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": false,
+                    "IsActive": false
+                },
+                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                    "IsAttachSettingsEnabled": false,
+                    "ShowExtraInfoOnTimePoint": true,
+                    "ExtraInfoType": 0,
+                    "IsCountdownEnabled": true,
+                    "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
             "IsActive": false
         },
-        "ea1520f4-77d2-46fc-9892-8d61c8e5ce3a": {
-            "Name": "\u4F5C\u6587",
-            "Initial": "\u4F5C",
+        "e1e85fdc-c620-4cc2-9931-73164be718b8": {
+            "Name": "\u665A\u8BFB",
+            "Initial": "\u665A",
             "TeacherName": "",
             "IsOutDoor": false,
             "AttachedObjects": {
-                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
-                    "IsAttachSettingsEnabled": false,
-                    "ShowExtraInfoOnTimePoint": true,
-                    "ExtraInfoType": 0,
-                    "IsCountdownEnabled": true,
-                    "CountdownSeconds": 60,
-                    "IsActive": false
-                },
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": false,
+                    "IsActive": false
+                },
+                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                    "IsAttachSettingsEnabled": false,
+                    "ShowExtraInfoOnTimePoint": true,
+                    "ExtraInfoType": 0,
+                    "IsCountdownEnabled": true,
+                    "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
             "IsActive": false
         },
-        "f74b973d-a4a8-4d26-89e5-5c54a8c2dc8f": {
+        "f11c0e8c-6383-446f-b1f0-1449ed1029da": {
             "Name": "\u5468\u6D4B",
             "Initial": "\u6D4B",
             "TeacherName": "",
             "IsOutDoor": false,
             "AttachedObjects": {
-                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
-                    "IsAttachSettingsEnabled": false,
-                    "ShowExtraInfoOnTimePoint": true,
-                    "ExtraInfoType": 0,
-                    "IsCountdownEnabled": true,
-                    "CountdownSeconds": 60,
-                    "IsActive": false
-                },
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": false,
+                    "IsActive": false
+                },
+                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                    "IsAttachSettingsEnabled": false,
+                    "ShowExtraInfoOnTimePoint": true,
+                    "ExtraInfoType": 0,
+                    "IsCountdownEnabled": true,
+                    "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
             "IsActive": false
         },
-        "3719a855-0ad8-467b-aba3-108816bd4e51": {
-            "Name": "\u9605\u8BFB",
-            "Initial": "\u8BFB",
+        "9b34e644-d47c-49e3-b88e-5d4410193788": {
+            "Name": "\u4F5C\u6587",
+            "Initial": "\u4F5C",
             "TeacherName": "",
             "IsOutDoor": false,
             "AttachedObjects": {
-                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
-                    "IsAttachSettingsEnabled": false,
-                    "ShowExtraInfoOnTimePoint": true,
-                    "ExtraInfoType": 0,
-                    "IsCountdownEnabled": true,
-                    "CountdownSeconds": 60,
-                    "IsActive": false
-                },
                 "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
                     "IsClassOnNotificationEnabled": true,
                     "IsClassOnPreparingNotificationEnabled": true,
                     "IsClassOffNotificationEnabled": true,
                     "ClassPreparingDeltaTime": 60,
                     "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
                     "IsAttachSettingsEnabled": false,
+                    "IsActive": false
+                },
+                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                    "IsAttachSettingsEnabled": false,
+                    "ShowExtraInfoOnTimePoint": true,
+                    "ExtraInfoType": 0,
+                    "IsCountdownEnabled": true,
+                    "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
+                    "IsActive": false
+                }
+            },
+            "IsActive": false
+        },
+        "1b4a6f76-f851-45ac-b035-1cf84f08b1c3": {
+            "Name": "\u9605\u8BFB",
+            "Initial": "\u9605",
+            "TeacherName": "",
+            "IsOutDoor": false,
+            "AttachedObjects": {
+                "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+                    "IsClassOnNotificationEnabled": true,
+                    "IsClassOnPreparingNotificationEnabled": true,
+                    "IsClassOffNotificationEnabled": true,
+                    "ClassPreparingDeltaTime": 60,
+                    "ClassOnPreparingText": "\u51C6\u5907\u4E0A\u8BFE\uFF0C\u8BF7\u56DE\u5230\u5EA7\u4F4D\u5E76\u4FDD\u6301\u5B89\u9759\uFF0C\u505A\u597D\u4E0A\u8BFE\u51C6\u5907\u3002",
+                    "ClassOnPreparingMaskText": "\u5373\u5C06\u4E0A\u8BFE",
+                    "ClassOnMaskText": "\u4E0A\u8BFE",
+                    "ClassOffMaskText": "\u8BFE\u95F4\u4F11\u606F",
+                    "IsAttachSettingsEnabled": false,
+                    "IsActive": false
+                },
+                "58e5b69a-764a-472b-bcf7-003b6a8c7fdf": {
+                    "IsAttachSettingsEnabled": false,
+                    "ShowExtraInfoOnTimePoint": true,
+                    "ExtraInfoType": 0,
+                    "IsCountdownEnabled": true,
+                    "CountdownSeconds": 60,
+                    "ExtraInfo4ShowSecondsSeconds": 300,
+                    "ScheduleSpacing": 1,
+                    "ShowCurrentLessonOnlyOnClass": false,
                     "IsActive": false
                 }
             },
